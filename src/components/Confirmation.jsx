@@ -7,7 +7,7 @@ function Confirmation({ formData }) {
                 </h1>
             </div>
             <div className="mb-4 border-[1px] rounded-md">
-                <h3 className="text-md font-bold p-2 text-center border-b-[1px]">
+                <h3 className="text-md font-bold p-2 text-center border-b-[1px] text-primary">
                     Personal Information
                 </h3>
                 <p className="p-2 flex ic justify-around border-b-[1px]">
@@ -22,7 +22,7 @@ function Confirmation({ formData }) {
             </div>
 
             <div className="mb-4 border-[1px] rounded-md">
-                <h3 className="text-md font-bold p-2 text-center border-b-[1px] ">
+                <h3 className="text-md font-bold p-2 text-center border-b-[1px] text-primary">
                     Address Information
                 </h3>
                 <p className="p-2 flex ic justify-around border-b-[1px]">
