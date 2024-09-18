@@ -27,6 +27,7 @@ function MultiStepFormComponent() {
         <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-6 md:mt-10 lg:w-[90%]">
             <div className="flex flex-col gap-6 p-8 items-center justify-center lg:w-[80%] w-full">
                 <Tabs step={step} />
+                <Tabs step={step} />
 
                 {/* Render Steps */}
                 <motion.div
@@ -54,6 +55,13 @@ function MultiStepFormComponent() {
                 </motion.div>
 
                 {/* Navigation Buttons */}
+
+                <NavigationBtn
+                    step={step}
+                    prevStep={prevStep}
+                    nextStep={nextStep}
+                    submitForm={submitForm}
+                />
 
                 <NavigationBtn
                     step={step}
